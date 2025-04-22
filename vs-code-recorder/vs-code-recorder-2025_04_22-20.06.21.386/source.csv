@@ -1,0 +1,796 @@
+Sequence,Time,File,RangeOffset,RangeLength,Text,Language,Type
+1,15,"exercises/easy/ex1-hello-world.js",0,0,"function helloWorld() {\n  // write a function that prints ""Hello World!"" to the console\n  \n}\n\nmodule.exports = helloWorld;\n",javascript,tab
+2,9619,"exercises/easy/ex1-hello-world.js",90,0,"c",javascript,content
+3,9771,"exercises/easy/ex1-hello-world.js",91,0,"o",javascript,content
+4,10049,"exercises/easy/ex1-hello-world.js",92,0,"n",javascript,content
+5,10355,"exercises/easy/ex1-hello-world.js",93,0,"s",javascript,content
+6,10724,"exercises/easy/ex1-hello-world.js",94,0,"o",javascript,content
+7,11901,"exercises/easy/ex1-hello-world.js",95,0,"l",javascript,content
+8,12234,"exercises/easy/ex1-hello-world.js",96,0,"e",javascript,content
+9,13210,"exercises/easy/ex1-hello-world.js",90,7,"console",javascript,content
+9,13210,"exercises/easy/ex1-hello-world.js",90,7,"console",javascript,content
+10,13215,"exercises/easy/ex1-hello-world.js",97,0,".",javascript,content
+11,13676,"exercises/easy/ex1-hello-world.js",98,0,"l",javascript,content
+12,13937,"exercises/easy/ex1-hello-world.js",99,0,"o",javascript,content
+13,14195,"exercises/easy/ex1-hello-world.js",100,0,"g",javascript,content
+14,16984,"exercises/easy/ex1-hello-world.js",97,4,".log",javascript,content
+14,16984,"exercises/easy/ex1-hello-world.js",97,4,".log",javascript,content
+15,16985,"exercises/easy/ex1-hello-world.js",101,0,"()",javascript,content
+16,18531,"exercises/easy/ex1-hello-world.js",102,0,"""""",javascript,content
+17,19651,"exercises/easy/ex1-hello-world.js",103,0,"h",javascript,content
+18,19935,"exercises/easy/ex1-hello-world.js",104,0,"e",javascript,content
+19,20205,"exercises/easy/ex1-hello-world.js",105,0,"l",javascript,content
+20,20450,"exercises/easy/ex1-hello-world.js",106,0,"l",javascript,content
+21,21510,"exercises/easy/ex1-hello-world.js",107,0,"o",javascript,content
+22,22370,"exercises/easy/ex1-hello-world.js",108,0," ",javascript,content
+23,22656,"exercises/easy/ex1-hello-world.js",109,0,"w",javascript,content
+24,22806,"exercises/easy/ex1-hello-world.js",110,0,"o",javascript,content
+25,23009,"exercises/easy/ex1-hello-world.js",111,0,"r",javascript,content
+26,23183,"exercises/easy/ex1-hello-world.js",112,0,"l",javascript,content
+27,23382,"exercises/easy/ex1-hello-world.js",113,0,"d",javascript,content
+28,25701,"exercises/easy/ex1-hello-world.js",116,0,";",javascript,content
+29,33475,"exercises/easy/ex1-hello-world.js",120,0,"p",javascript,content
+30,33747,"exercises/easy/ex1-hello-world.js",121,0,"r",javascript,content
+31,33944,"exercises/easy/ex1-hello-world.js",122,0,"i",javascript,content
+32,34140,"exercises/easy/ex1-hello-world.js",123,0,"n",javascript,content
+33,34378,"exercises/easy/ex1-hello-world.js",124,0,"t",javascript,content
+34,37248,"exercises/easy/ex1-hello-world.js",125,0," ",javascript,content
+35,37757,"exercises/easy/ex1-hello-world.js",126,0,"h",javascript,content
+36,38054,"exercises/easy/ex1-hello-world.js",127,0,"e",javascript,content
+37,38334,"exercises/easy/ex1-hello-world.js",128,0,"l",javascript,content
+38,38565,"exercises/easy/ex1-hello-world.js",129,0,"l",javascript,content
+39,38786,"exercises/easy/ex1-hello-world.js",130,0,"o",javascript,content
+40,40632,"exercises/easy/ex1-hello-world.js",126,5,"helloWorld",javascript,content
+41,41942,"exercises/easy/ex1-hello-world.js",136,0,"()",javascript,content
+42,42887,"exercises/easy/ex1-hello-world.js",138,0,";",javascript,content
+43,44920,"exercises/easy/ex1-hello-world.js",139,0,"\n",javascript,content
+44,45632,"exercises/easy/ex1-hello-world.js",139,1,"",javascript,content
+45,66022,"exercises/easy/ex1-hello-world.js",125,1,"",javascript,content
+46,66307,"exercises/easy/ex1-hello-world.js",124,1,"",javascript,content
+47,66498,"exercises/easy/ex1-hello-world.js",123,1,"",javascript,content
+48,66701,"exercises/easy/ex1-hello-world.js",122,1,"",javascript,content
+49,66890,"exercises/easy/ex1-hello-world.js",121,1,"",javascript,content
+50,67069,"exercises/easy/ex1-hello-world.js",120,1,"",javascript,content
+51,77641,"exercises/easy/ex1-hello-world.js",133,0,"\n",javascript,content
+52,78396,"exercises/easy/ex1-hello-world.js",133,1,"",javascript,content
+53,104282,"extension-output-MattiaConsiglio.vs-code-recorder-#1-VS Code Recorder",0,0,"8:04:37 PM [info] Activating VS Code Recorder\n8:06:21 PM [info] Recording started\n",Log,tab
+54,107343,"exercises/easy/ex1-hello-world.js",0,0,"function helloWorld() {\n  // write a function that prints ""Hello World!"" to the console\n  console.log(""hello world"");\n}\nhelloWorld();\nmodule.exports = helloWorld;\n",javascript,tab
+55,183027,"README.md",0,0,"## Instructions\n\n1. Install dependencies:\n   ```\n   npm install\n   ```\n\n2. Run tests for all exercises:\n   ```\n   npm test\n   ```\n\n3. Run tests by difficulty level:\n   ```\n   npm run test:easy\n   npm run test:medium\n   npm run test:hard\n   ```\n\n4. Run tests for a specific file:\n   ```\n   npx jest tests/easy/ex1.test.js\n   ```\n\nComplete the functions, run the test, and make sure they all pass. Then zip up the entire folder and send it to me via discord.\n",markdown,tab
+56,471381,"exercises/easy/ex1-hello-world.js",0,0,"function helloWorld() {\n  // write a function that prints ""Hello World!"" to the console\n  console.log(""hello world"");\n}\nhelloWorld();\nmodule.exports = helloWorld;\n",javascript,tab
+57,477218,"README.md",0,0,"## Instructions\n\n1. Install dependencies:\n   ```\n   npm install\n   ```\n\n2. Run tests for all exercises:\n   ```\n   npm test\n   ```\n\n3. Run tests by difficulty level:\n   ```\n   npm run test:easy\n   npm run test:medium\n   npm run test:hard\n   ```\n\n4. Run tests for a specific file:\n   ```\n   npx jest tests/easy/ex1.test.js\n   ```\n\nComplete the functions, run the test, and make sure they all pass. Then zip up the entire folder and send it to me via discord.\n",markdown,tab
+58,479365,"exercises/easy/ex1-hello-world.js",0,0,"function helloWorld() {\n  // write a function that prints ""Hello World!"" to the console\n  console.log(""hello world"");\n}\nhelloWorld();\nmodule.exports = helloWorld;\n",javascript,tab
+59,483627,"exercises/easy/ex2-type-checker.js",0,0,"function showAllTypes() {\n  /* Create a function that outputs the typeof for:\n  objects, arrays, strings, numbers, booleans, null, undefined, and NaN It should return an object containing all these types */\n}\n\nmodule.exports = showAllTypes;\n",javascript,tab
+60,512676,"exercises/easy/ex2-type-checker.js",206,0,"\n  ",javascript,content
+61,649021,"exercises/easy/ex1-hello-world.js",0,0,"function helloWorld() {\n  // write a function that prints ""Hello World!"" to the console\n  console.log(""hello world"");\n}\nhelloWorld();\nmodule.exports = helloWorld;\n",javascript,tab
+62,650754,"exercises/easy/ex2-type-checker.js",0,0,"function showAllTypes() {\n  /* Create a function that outputs the typeof for:\n  objects, arrays, strings, numbers, booleans, null, undefined, and NaN It should return an object containing all these types */\n  \n}\n\nmodule.exports = showAllTypes;\n",javascript,tab
+63,652513,"exercises/easy/ex1-hello-world.js",0,0,"function helloWorld() {\n  // write a function that prints ""Hello World!"" to the console\n  console.log(""hello world"");\n}\nhelloWorld();\nmodule.exports = helloWorld;\n",javascript,tab
+64,660315,"exercises/easy/ex1-hello-world.js",0,0,"\n",javascript,content
+65,661010,"exercises/easy/ex1-hello-world.js",1,0,"\n",javascript,content
+66,661404,"exercises/easy/ex1-hello-world.js",2,0,"\n",javascript,content
+67,665016,"exercises/easy/ex1-hello-world.js",1,0,"c",javascript,content
+68,665681,"exercises/easy/ex1-hello-world.js",2,0,"o",javascript,content
+69,665907,"exercises/easy/ex1-hello-world.js",3,0,"n",javascript,content
+70,666070,"exercises/easy/ex1-hello-world.js",4,0,"s",javascript,content
+71,666960,"exercises/easy/ex1-hello-world.js",5,0,"t",javascript,content
+72,669734,"exercises/easy/ex1-hello-world.js",6,0," ",javascript,content
+73,670419,"exercises/easy/ex1-hello-world.js",7,0,"\n",javascript,content
+74,670658,"exercises/easy/ex1-hello-world.js",8,0,"=",javascript,content
+75,671629,"exercises/easy/ex1-hello-world.js",8,1,"",javascript,content
+76,671947,"exercises/easy/ex1-hello-world.js",7,1,"",javascript,content
+77,673511,"exercises/easy/ex1-hello-world.js",7,0,"\n",javascript,content
+77,673511,"exercises/easy/ex1-hello-world.js",7,0,"\n",javascript,content
+78,673512,"exercises/easy/ex1-hello-world.js",8,0,"=",javascript,content
+79,674649,"exercises/easy/ex1-hello-world.js",8,1,"",javascript,content
+80,675042,"exercises/easy/ex1-hello-world.js",7,1,"",javascript,content
+81,677469,"exercises/easy/ex1-hello-world.js",7,0,"+",javascript,content
+82,678483,"exercises/easy/ex1-hello-world.js",7,1,"",javascript,content
+83,678946,"exercises/easy/ex1-hello-world.js",6,1,"",javascript,content
+84,679463,"exercises/easy/ex1-hello-world.js",6,0," ",javascript,content
+85,679671,"exercises/easy/ex1-hello-world.js",7,0,"=",javascript,content
+86,680692,"exercises/easy/ex1-hello-world.js",8,0," ",javascript,content
+87,682756,"exercises/easy/ex1-hello-world.js",9,0,"""""",javascript,content
+88,683885,"exercises/easy/ex1-hello-world.js",10,0,"h",javascript,content
+89,684163,"exercises/easy/ex1-hello-world.js",11,0,"e",javascript,content
+90,684586,"exercises/easy/ex1-hello-world.js",12,0,"l",javascript,content
+91,684780,"exercises/easy/ex1-hello-world.js",13,0,"l",javascript,content
+92,684999,"exercises/easy/ex1-hello-world.js",14,0,"o",javascript,content
+93,685425,"exercises/easy/ex1-hello-world.js",15,0," ",javascript,content
+94,685624,"exercises/easy/ex1-hello-world.js",16,0,"w",javascript,content
+95,685780,"exercises/easy/ex1-hello-world.js",17,0,"o",javascript,content
+96,685940,"exercises/easy/ex1-hello-world.js",18,0,"r",javascript,content
+97,686104,"exercises/easy/ex1-hello-world.js",19,0,"l",javascript,content
+98,686291,"exercises/easy/ex1-hello-world.js",20,0,"d",javascript,content
+99,695690,"exercises/easy/ex1-hello-world.js",7,0,"s",javascript,content
+100,695995,"exercises/easy/ex1-hello-world.js",8,0,"t",javascript,content
+101,696256,"exercises/easy/ex1-hello-world.js",9,0,"r",javascript,content
+102,696458,"exercises/easy/ex1-hello-world.js",10,0,"i",javascript,content
+103,696648,"exercises/easy/ex1-hello-world.js",11,0,"n",javascript,content
+104,696866,"exercises/easy/ex1-hello-world.js",12,0,"g",javascript,content
+105,697204,"exercises/easy/ex1-hello-world.js",12,1,"",javascript,content
+106,697388,"exercises/easy/ex1-hello-world.js",11,1,"",javascript,content
+107,697531,"exercises/easy/ex1-hello-world.js",10,1,"",javascript,content
+108,697718,"exercises/easy/ex1-hello-world.js",9,1,"",javascript,content
+109,697861,"exercises/easy/ex1-hello-world.js",8,1,"",javascript,content
+110,698003,"exercises/easy/ex1-hello-world.js",7,1,"",javascript,content
+111,700449,"exercises/easy/ex1-hello-world.js",7,0,"h",javascript,content
+112,700716,"exercises/easy/ex1-hello-world.js",8,0,"e",javascript,content
+113,700950,"exercises/easy/ex1-hello-world.js",9,0,"l",javascript,content
+114,701130,"exercises/easy/ex1-hello-world.js",10,0,"l",javascript,content
+115,701303,"exercises/easy/ex1-hello-world.js",11,0,"o",javascript,content
+116,701899,"exercises/easy/ex1-hello-world.js",12,0," ",javascript,content
+117,717993,"exercises/easy/ex1-hello-world.js",144,1,"",javascript,content
+118,718258,"exercises/easy/ex1-hello-world.js",143,1,"",javascript,content
+119,718406,"exercises/easy/ex1-hello-world.js",142,1,"",javascript,content
+120,718568,"exercises/easy/ex1-hello-world.js",141,1,"",javascript,content
+121,718708,"exercises/easy/ex1-hello-world.js",140,1,"",javascript,content
+122,718883,"exercises/easy/ex1-hello-world.js",139,1,"",javascript,content
+123,719047,"exercises/easy/ex1-hello-world.js",138,1,"",javascript,content
+124,719231,"exercises/easy/ex1-hello-world.js",137,1,"",javascript,content
+125,719371,"exercises/easy/ex1-hello-world.js",136,1,"",javascript,content
+126,719534,"exercises/easy/ex1-hello-world.js",135,1,"",javascript,content
+127,719740,"exercises/easy/ex1-hello-world.js",134,1,"",javascript,content
+128,719891,"exercises/easy/ex1-hello-world.js",133,1,"",javascript,content
+129,720188,"exercises/easy/ex1-hello-world.js",132,1,"",javascript,content
+130,720870,"exercises/easy/ex1-hello-world.js",132,0,"h",javascript,content
+131,721107,"exercises/easy/ex1-hello-world.js",133,0,"e",javascript,content
+132,721298,"exercises/easy/ex1-hello-world.js",134,0,"l",javascript,content
+133,721424,"exercises/easy/ex1-hello-world.js",135,0,"l",javascript,content
+134,721743,"exercises/easy/ex1-hello-world.js",136,0,"o",javascript,content
+135,723487,"exercises/easy/ex1-hello-world.js",132,5,"hello",javascript,content
+136,729193,"exercises/easy/ex1-hello-world.js",153,0,"h",javascript,content
+137,729740,"exercises/easy/ex1-hello-world.js",154,0,"e",javascript,content
+138,730455,"exercises/easy/ex1-hello-world.js",155,0,"l",javascript,content
+139,730652,"exercises/easy/ex1-hello-world.js",156,0,"l",javascript,content
+140,730843,"exercises/easy/ex1-hello-world.js",157,0,"o",javascript,content
+141,732671,"exercises/easy/ex1-hello-world.js",153,5,"hello",javascript,content
+142,740437,"exercises/easy/ex2-type-checker.js",0,0,"function showAllTypes() {\n  /* Create a function that outputs the typeof for:\n  objects, arrays, strings, numbers, booleans, null, undefined, and NaN It should return an object containing all these types */\n  \n}\n\nmodule.exports = showAllTypes;\n",javascript,tab
+143,802165,"exercises/easy/ex2-type-checker.js",207,2,"",javascript,content
+143,802165,"exercises/easy/ex2-type-checker.js",207,2,"",javascript,content
+144,802165,"exercises/easy/ex2-type-checker.js",0,0,"\n",javascript,content
+145,802408,"exercises/easy/ex2-type-checker.js",1,0,"\n",javascript,content
+146,802641,"exercises/easy/ex2-type-checker.js",2,0,"\n",javascript,content
+147,802877,"exercises/easy/ex2-type-checker.js",3,0,"\n",javascript,content
+148,803110,"exercises/easy/ex2-type-checker.js",4,0,"\n",javascript,content
+149,806940,"exercises/easy/ex2-type-checker.js",0,0,"c",javascript,content
+150,807100,"exercises/easy/ex2-type-checker.js",1,0,"o",javascript,content
+151,807335,"exercises/easy/ex2-type-checker.js",2,0,"n",javascript,content
+152,807515,"exercises/easy/ex2-type-checker.js",3,0,"s",javascript,content
+153,807745,"exercises/easy/ex2-type-checker.js",4,0,"t",javascript,content
+154,809489,"exercises/easy/ex2-type-checker.js",0,5,"const",javascript,content
+155,810519,"exercises/easy/ex2-type-checker.js",5,0," ",javascript,content
+156,818714,"exercises/easy/ex2-type-checker.js",6,0,"n",javascript,content
+157,818784,"exercises/easy/ex2-type-checker.js",7,0,"u",javascript,content
+158,818989,"exercises/easy/ex2-type-checker.js",8,0,"m",javascript,content
+159,820187,"exercises/easy/ex2-type-checker.js",9,0," ",javascript,content
+160,820386,"exercises/easy/ex2-type-checker.js",10,0,"=",javascript,content
+161,821471,"exercises/easy/ex2-type-checker.js",11,0," ",javascript,content
+162,824679,"exercises/easy/ex2-type-checker.js",12,0,"5",javascript,content
+163,824818,"exercises/easy/ex2-type-checker.js",13,0,"0",javascript,content
+164,826454,"exercises/easy/ex2-type-checker.js",14,0,";",javascript,content
+165,827111,"exercises/easy/ex2-type-checker.js",15,0,"\n",javascript,content
+166,827978,"exercises/easy/ex2-type-checker.js",16,0,"c",javascript,content
+167,828173,"exercises/easy/ex2-type-checker.js",17,0,"o",javascript,content
+168,828440,"exercises/easy/ex2-type-checker.js",18,0,"n",javascript,content
+169,828603,"exercises/easy/ex2-type-checker.js",19,0,"s",javascript,content
+170,828914,"exercises/easy/ex2-type-checker.js",20,0,"t",javascript,content
+171,829973,"exercises/easy/ex2-type-checker.js",21,0," ",javascript,content
+172,832507,"exercises/easy/ex2-type-checker.js",22,0,"n",javascript,content
+173,832678,"exercises/easy/ex2-type-checker.js",23,0,"a",javascript,content
+174,832866,"exercises/easy/ex2-type-checker.js",24,0,"m",javascript,content
+175,832951,"exercises/easy/ex2-type-checker.js",25,0,"e",javascript,content
+176,833807,"exercises/easy/ex2-type-checker.js",26,0," ",javascript,content
+177,833941,"exercises/easy/ex2-type-checker.js",27,0,"=",javascript,content
+178,834585,"exercises/easy/ex2-type-checker.js",28,0," ",javascript,content
+179,836278,"exercises/easy/ex2-type-checker.js",29,0,"A",javascript,content
+180,836712,"exercises/easy/ex2-type-checker.js",30,0,"l",javascript,content
+181,836878,"exercises/easy/ex2-type-checker.js",31,0,"a",javascript,content
+182,837090,"exercises/easy/ex2-type-checker.js",32,0,"n",javascript,content
+183,843535,"exercises/easy/ex2-type-checker.js",29,4,"AnalyserNode",javascript,content
+183,843535,"exercises/easy/ex2-type-checker.js",29,4,"AnalyserNode",javascript,content
+184,843536,"exercises/easy/ex2-type-checker.js",41,0,";",javascript,content
+185,844618,"exercises/easy/ex2-type-checker.js",41,1,"",javascript,content
+186,844861,"exercises/easy/ex2-type-checker.js",40,1,"",javascript,content
+187,845088,"exercises/easy/ex2-type-checker.js",39,1,"",javascript,content
+188,845230,"exercises/easy/ex2-type-checker.js",38,1,"",javascript,content
+189,845386,"exercises/easy/ex2-type-checker.js",37,1,"",javascript,content
+190,845537,"exercises/easy/ex2-type-checker.js",36,1,"",javascript,content
+191,845705,"exercises/easy/ex2-type-checker.js",35,1,"",javascript,content
+192,845884,"exercises/easy/ex2-type-checker.js",34,1,"",javascript,content
+192,845884,"exercises/easy/ex2-type-checker.js",34,1,"",javascript,content
+193,846288,"exercises/easy/ex2-type-checker.js",33,1,"",javascript,content
+194,847248,"exercises/easy/ex2-type-checker.js",32,1,"",javascript,content
+195,847378,"exercises/easy/ex2-type-checker.js",31,1,"",javascript,content
+196,847557,"exercises/easy/ex2-type-checker.js",30,1,"",javascript,content
+197,848352,"exercises/easy/ex2-type-checker.js",30,0,"l",javascript,content
+198,848487,"exercises/easy/ex2-type-checker.js",31,0,"a",javascript,content
+199,848609,"exercises/easy/ex2-type-checker.js",32,0,"n",javascript,content
+200,852388,"exercises/easy/ex2-type-checker.js",29,4,"AnalyserNode",javascript,content
+200,852388,"exercises/easy/ex2-type-checker.js",29,4,"AnalyserNode",javascript,content
+201,852390,"exercises/easy/ex2-type-checker.js",41,0,";",javascript,content
+202,854499,"exercises/easy/ex2-type-checker.js",41,1,"",javascript,content
+203,855008,"exercises/easy/ex2-type-checker.js",40,1,"",javascript,content
+204,855021,"exercises/easy/ex2-type-checker.js",39,1,"",javascript,content
+205,855103,"exercises/easy/ex2-type-checker.js",38,1,"",javascript,content
+206,855106,"exercises/easy/ex2-type-checker.js",37,1,"",javascript,content
+207,855134,"exercises/easy/ex2-type-checker.js",36,1,"",javascript,content
+208,855202,"exercises/easy/ex2-type-checker.js",35,1,"",javascript,content
+209,855205,"exercises/easy/ex2-type-checker.js",34,1,"",javascript,content
+210,855231,"exercises/easy/ex2-type-checker.js",33,1,"",javascript,content
+211,855371,"exercises/easy/ex2-type-checker.js",32,1,"",javascript,content
+212,855559,"exercises/easy/ex2-type-checker.js",31,1,"",javascript,content
+213,855718,"exercises/easy/ex2-type-checker.js",30,1,"",javascript,content
+214,855877,"exercises/easy/ex2-type-checker.js",29,1,"",javascript,content
+215,863776,"exercises/easy/ex2-type-checker.js",29,0,"A",javascript,content
+216,864160,"exercises/easy/ex2-type-checker.js",30,0,"l",javascript,content
+217,864339,"exercises/easy/ex2-type-checker.js",31,0,"a",javascript,content
+218,864837,"exercises/easy/ex2-type-checker.js",32,0,"n",javascript,content
+219,868538,"exercises/easy/ex2-type-checker.js",33,0,";",javascript,content
+220,869548,"exercises/easy/ex2-type-checker.js",34,0,"\n",javascript,content
+221,871678,"exercises/easy/ex2-type-checker.js",35,0,"c",javascript,content
+221,871678,"exercises/easy/ex2-type-checker.js",35,0,"c",javascript,content
+222,871680,"exercises/easy/ex2-type-checker.js",36,0,"o",javascript,content
+223,871844,"exercises/easy/ex2-type-checker.js",37,0,"n",javascript,content
+224,871953,"exercises/easy/ex2-type-checker.js",38,0,"s",javascript,content
+225,872384,"exercises/easy/ex2-type-checker.js",39,0,"t",javascript,content
+226,873704,"exercises/easy/ex2-type-checker.js",40,0," ",javascript,content
+227,882555,"exercises/easy/ex2-type-checker.js",41,0,"s",javascript,content
+228,882775,"exercises/easy/ex2-type-checker.js",42,0,"w",javascript,content
+229,883172,"exercises/easy/ex2-type-checker.js",43,0,"i",javascript,content
+230,883373,"exercises/easy/ex2-type-checker.js",44,0,"t",javascript,content
+231,883625,"exercises/easy/ex2-type-checker.js",45,0,"c",javascript,content
+232,883715,"exercises/easy/ex2-type-checker.js",46,0,"h",javascript,content
+233,887595,"exercises/easy/ex2-type-checker.js",47,0," ",javascript,content
+234,887745,"exercises/easy/ex2-type-checker.js",48,0,"=",javascript,content
+235,889106,"exercises/easy/ex2-type-checker.js",49,0," ",javascript,content
+236,889828,"exercises/easy/ex2-type-checker.js",50,0,"t",javascript,content
+237,890565,"exercises/easy/ex2-type-checker.js",51,0,"r",javascript,content
+237,890565,"exercises/easy/ex2-type-checker.js",51,0,"r",javascript,content
+238,890567,"exercises/easy/ex2-type-checker.js",52,0,"u",javascript,content
+239,890653,"exercises/easy/ex2-type-checker.js",53,0,"e",javascript,content
+240,893142,"exercises/easy/ex2-type-checker.js",50,4,"true",javascript,content
+241,894613,"exercises/easy/ex2-type-checker.js",54,0,"\n",javascript,content
+242,900222,"exercises/easy/ex2-type-checker.js",46,1,"",javascript,content
+242,900222,"exercises/easy/ex2-type-checker.js",46,1,"",javascript,content
+242,900222,"exercises/easy/ex2-type-checker.js",46,1,"",javascript,content
+242,900222,"exercises/easy/ex2-type-checker.js",46,1,"",javascript,content
+243,900820,"exercises/easy/ex2-type-checker.js",45,1,"",javascript,content
+244,900822,"exercises/easy/ex2-type-checker.js",44,1,"",javascript,content
+245,900823,"exercises/easy/ex2-type-checker.js",43,1,"",javascript,content
+246,900963,"exercises/easy/ex2-type-checker.js",42,1,"",javascript,content
+247,901117,"exercises/easy/ex2-type-checker.js",41,1,"",javascript,content
+248,901968,"exercises/easy/ex2-type-checker.js",41,0,"i",javascript,content
+249,902114,"exercises/easy/ex2-type-checker.js",42,0,"n",javascript,content
+250,902259,"exercises/easy/ex2-type-checker.js",43,0,"t",javascript,content
+251,902552,"exercises/easy/ex2-type-checker.js",44,0,"e",javascript,content
+252,902839,"exercises/easy/ex2-type-checker.js",45,0,"r",javascript,content
+253,903401,"exercises/easy/ex2-type-checker.js",46,0,"r",javascript,content
+254,903730,"exercises/easy/ex2-type-checker.js",47,0,"u",javascript,content
+255,904012,"exercises/easy/ex2-type-checker.js",48,0,"p",javascript,content
+256,904201,"exercises/easy/ex2-type-checker.js",49,0,"t",javascript,content
+257,904296,"exercises/easy/ex2-type-checker.js",50,0,"o",javascript,content
+258,904488,"exercises/easy/ex2-type-checker.js",51,0,"r",javascript,content
+259,906495,"exercises/easy/ex2-type-checker.js",59,0,"\n",javascript,content
+260,913964,"exercises/easy/ex2-type-checker.js",60,0,"c",javascript,content
+261,914262,"exercises/easy/ex2-type-checker.js",61,0,"o",javascript,content
+262,914581,"exercises/easy/ex2-type-checker.js",62,0,"n",javascript,content
+263,914691,"exercises/easy/ex2-type-checker.js",63,0,"s",javascript,content
+264,914907,"exercises/easy/ex2-type-checker.js",64,0,"t",javascript,content
+265,916127,"exercises/easy/ex2-type-checker.js",65,0," ",javascript,content
+266,918914,"exercises/easy/ex2-type-checker.js",66,0,"g",javascript,content
+266,918914,"exercises/easy/ex2-type-checker.js",66,0,"g",javascript,content
+267,918917,"exercises/easy/ex2-type-checker.js",67,0,"r",javascript,content
+268,919421,"exercises/easy/ex2-type-checker.js",68,0,"o",javascript,content
+269,919779,"exercises/easy/ex2-type-checker.js",69,0,"u",javascript,content
+270,920003,"exercises/easy/ex2-type-checker.js",70,0,"p",javascript,content
+271,920970,"exercises/easy/ex2-type-checker.js",71,0," ",javascript,content
+272,921148,"exercises/easy/ex2-type-checker.js",72,0,"=",javascript,content
+273,922779,"exercises/easy/ex2-type-checker.js",73,0," ",javascript,content
+274,924041,"exercises/easy/ex2-type-checker.js",74,0,"[]",javascript,content
+275,925256,"exercises/easy/ex2-type-checker.js",75,0,"1",javascript,content
+276,925506,"exercises/easy/ex2-type-checker.js",76,0,",",javascript,content
+277,926379,"exercises/easy/ex2-type-checker.js",77,0,"2",javascript,content
+278,926813,"exercises/easy/ex2-type-checker.js",78,0,",",javascript,content
+279,927396,"exercises/easy/ex2-type-checker.js",79,0,"3",javascript,content
+280,929031,"exercises/easy/ex2-type-checker.js",80,0,",",javascript,content
+280,929031,"exercises/easy/ex2-type-checker.js",80,0,",",javascript,content
+281,929034,"exercises/easy/ex2-type-checker.js",81,0,"6",javascript,content
+282,930489,"exercises/easy/ex2-type-checker.js",82,0,",",javascript,content
+283,930871,"exercises/easy/ex2-type-checker.js",83,0,"9",javascript,content
+284,933327,"exercises/easy/ex2-type-checker.js",85,0,"\n",javascript,content
+285,935202,"exercises/easy/ex2-type-checker.js",86,0,"c",javascript,content
+286,935293,"exercises/easy/ex2-type-checker.js",87,0,"o",javascript,content
+287,935538,"exercises/easy/ex2-type-checker.js",88,0,"n",javascript,content
+288,935599,"exercises/easy/ex2-type-checker.js",89,0,"s",javascript,content
+289,935773,"exercises/easy/ex2-type-checker.js",90,0,"t",javascript,content
+290,936627,"exercises/easy/ex2-type-checker.js",91,0," ",javascript,content
+291,1099854,"exercises/easy/ex2-type-checker.js",92,0,"n",javascript,content
+292,1100097,"exercises/easy/ex2-type-checker.js",93,0,"o",javascript,content
+293,1100345,"exercises/easy/ex2-type-checker.js",94,0,"n",javascript,content
+294,1100509,"exercises/easy/ex2-type-checker.js",95,0,"e",javascript,content
+295,1102667,"exercises/easy/ex2-type-checker.js",96,0," ",javascript,content
+295,1102667,"exercises/easy/ex2-type-checker.js",96,0," ",javascript,content
+296,1102672,"exercises/easy/ex2-type-checker.js",97,0,"=",javascript,content
+297,1108110,"exercises/easy/ex2-type-checker.js",98,0," ",javascript,content
+298,1108354,"exercises/easy/ex2-type-checker.js",99,0,"n",javascript,content
+299,1108496,"exercises/easy/ex2-type-checker.js",100,0,"u",javascript,content
+300,1108802,"exercises/easy/ex2-type-checker.js",101,0,"l",javascript,content
+301,1108970,"exercises/easy/ex2-type-checker.js",102,0,"l",javascript,content
+302,1110905,"exercises/easy/ex2-type-checker.js",103,0,"\n",javascript,content
+303,1111928,"exercises/easy/ex2-type-checker.js",104,0,"c",javascript,content
+304,1112066,"exercises/easy/ex2-type-checker.js",105,0,"o",javascript,content
+305,1112306,"exercises/easy/ex2-type-checker.js",106,0,"n",javascript,content
+306,1112763,"exercises/easy/ex2-type-checker.js",107,0,"s",javascript,content
+306,1112763,"exercises/easy/ex2-type-checker.js",107,0,"s",javascript,content
+307,1112765,"exercises/easy/ex2-type-checker.js",108,0,"t",javascript,content
+308,1193922,"exercises/easy/ex2-type-checker.js",109,0," ",javascript,content
+309,1348578,"exercises/easy/ex2-type-checker.js",110,0,"N",javascript,content
+310,1348841,"exercises/easy/ex2-type-checker.js",111,0,"o",javascript,content
+311,1349004,"exercises/easy/ex2-type-checker.js",112,0,"t",javascript,content
+312,1353374,"exercises/easy/ex2-type-checker.js",113,0,"D",javascript,content
+313,1354512,"exercises/easy/ex2-type-checker.js",114,0,"e",javascript,content
+314,1354740,"exercises/easy/ex2-type-checker.js",115,0,"f",javascript,content
+315,1354931,"exercises/easy/ex2-type-checker.js",116,0,"i",javascript,content
+316,1355183,"exercises/easy/ex2-type-checker.js",117,0,"e",javascript,content
+316,1355183,"exercises/easy/ex2-type-checker.js",117,0,"e",javascript,content
+317,1355184,"exercises/easy/ex2-type-checker.js",118,0,"n",javascript,content
+318,1355888,"exercises/easy/ex2-type-checker.js",118,1,"",javascript,content
+319,1356085,"exercises/easy/ex2-type-checker.js",117,1,"",javascript,content
+320,1356506,"exercises/easy/ex2-type-checker.js",117,0,"n",javascript,content
+321,1356919,"exercises/easy/ex2-type-checker.js",118,0,"e",javascript,content
+322,1357183,"exercises/easy/ex2-type-checker.js",119,0,"d",javascript,content
+323,1359763,"exercises/easy/ex2-type-checker.js",120,0," ",javascript,content
+324,1360957,"exercises/easy/ex2-type-checker.js",121,0,"=",javascript,content
+325,1362447,"exercises/easy/ex2-type-checker.js",122,0," ",javascript,content
+326,1363430,"exercises/easy/ex2-type-checker.js",123,0,"u",javascript,content
+327,1363619,"exercises/easy/ex2-type-checker.js",124,0,"n",javascript,content
+328,1363785,"exercises/easy/ex2-type-checker.js",125,0,"d",javascript,content
+329,1364013,"exercises/easy/ex2-type-checker.js",126,0,"e",javascript,content
+330,1364170,"exercises/easy/ex2-type-checker.js",127,0,"f",javascript,content
+331,1364264,"exercises/easy/ex2-type-checker.js",128,0,"i",javascript,content
+332,1364403,"exercises/easy/ex2-type-checker.js",129,0,"n",javascript,content
+333,1364575,"exercises/easy/ex2-type-checker.js",130,0,"e",javascript,content
+334,1364918,"exercises/easy/ex2-type-checker.js",131,0,"d",javascript,content
+335,1404027,"tests/easy/ex1.test.js",0,0,"const helloWorld = require('../../exercises/easy/ex1-hello-world');\n\ndescribe('hello world function', () => {\n  test('should log ""Hello World!"" to the console', () => {\n    const consoleSpy = jest.spyOn(console, 'log');\n    helloWorld();\n    expect(consoleSpy).toHaveBeenCalledWith('Hello World!');\n    consoleSpy.mockRestore();\n  });\n});\n",javascript,tab
+336,1425422,"tests/easy/ex2.test.js",0,0,"const showAllTypes = require('../../exercises/easy/ex2-type-checker');\n\ndescribe('Show All Types function', () => {\n  test('should return an object with all the types', () => {\n    const result = showAllTypes();\n    \n    expect(result).toHaveProperty('object');\n    expect(result).toHaveProperty('array');\n    expect(result).toHaveProperty('string');\n    expect(result).toHaveProperty('number');\n    expect(result).toHaveProperty('boolean');\n    expect(result).toHaveProperty('null');\n    expect(result).toHaveProperty('undefined');\n    expect(result).toHaveProperty('nan');\n    \n    expect(result.object).toBe('object');\n    expect(result.array).toBe('object');\n    expect(result.string).toBe('string');\n    expect(result.number).toBe('number');\n    expect(result.boolean).toBe('boolean');\n    expect(result.null).toBe('object');\n    expect(result.undefined).toBe('undefined');\n    expect(result.nan).toBe('number');\n  });\n});\n",javascript,tab
+337,1439864,"tests/easy/ex6.test.js",0,0,"const screamName = require('../../exercises/easy/ex6-name-screamer');\n\ndescribe('Name Screamer function', () => {\n  test('should convert name to uppercase and add exclamation marks', () => {\n    expect(screamName('john')).toBe('JOHN!!!');\n    expect(screamName('Sarah')).toBe('SARAH!!!');\n    expect(screamName('bob smith')).toBe('BOB SMITH!!!');\n  });\n});\n",javascript,tab
+338,1451959,"exercises/easy/ex2-type-checker.js",0,0,"const num = 50;\nconst name = Alan;\nconst interruptor = true\nconst group = [1,2,3,6,9]\nconst none = null\nconst NotDefined = undefined\n\n\n\n\n\nfunction showAllTypes() {\n  /* Create a function that outputs the typeof for:\n  objects, arrays, strings, numbers, booleans, null, undefined, and NaN It should return an object containing all these types */\n\n}\n\nmodule.exports = showAllTypes;\n",javascript,tab
+339,1831695,"exercises/easy/ex2-type-checker.js",133,0,"c",javascript,content
+340,1831867,"exercises/easy/ex2-type-checker.js",134,0,"o",javascript,content
+341,1832082,"exercises/easy/ex2-type-checker.js",135,0,"n",javascript,content
+342,1832207,"exercises/easy/ex2-type-checker.js",136,0,"s",javascript,content
+343,1832498,"exercises/easy/ex2-type-checker.js",137,0,"t",javascript,content
+344,1833236,"exercises/easy/ex2-type-checker.js",138,0," ",javascript,content
+345,1836687,"exercises/easy/ex2-type-checker.js",139,0,"i",javascript,content
+346,1836813,"exercises/easy/ex2-type-checker.js",140,0,"d",javascript,content
+347,1836961,"exercises/easy/ex2-type-checker.js",141,0,"k",javascript,content
+348,1838731,"exercises/easy/ex2-type-checker.js",142,0," ",javascript,content
+349,1838911,"exercises/easy/ex2-type-checker.js",143,0,"=",javascript,content
+350,1840217,"exercises/easy/ex2-type-checker.js",144,0," ",javascript,content
+351,1841128,"exercises/easy/ex2-type-checker.js",145,0,"N",javascript,content
+352,1841948,"exercises/easy/ex2-type-checker.js",146,0,"a",javascript,content
+353,1844174,"exercises/easy/ex2-type-checker.js",145,2,"NaN",javascript,content
+354,1851185,"exercises/easy/ex2-type-checker.js",360,0,"\n  ",javascript,content
+355,1851486,"exercises/easy/ex2-type-checker.js",363,0,"\n  ",javascript,content
+355,1851486,"exercises/easy/ex2-type-checker.js",363,0,"\n  ",javascript,content
+356,1851486,"exercises/easy/ex2-type-checker.js",361,2,"",javascript,content
+357,1860327,"exercises/easy/ex2-type-checker.js",362,2,"",javascript,content
+357,1860327,"exercises/easy/ex2-type-checker.js",362,2,"",javascript,content
+358,1860328,"exercises/easy/ex2-type-checker.js",360,0,"I",javascript,content
+359,1860504,"exercises/easy/ex2-type-checker.js",361,0,"F",javascript,content
+360,1860686,"exercises/easy/ex2-type-checker.js",362,0," ",javascript,content
+361,1861763,"exercises/easy/ex2-type-checker.js",362,1,"",javascript,content
+362,1862225,"exercises/easy/ex2-type-checker.js",361,1,"",javascript,content
+363,1862777,"exercises/easy/ex2-type-checker.js",361,0,"f",javascript,content
+364,1863370,"exercises/easy/ex2-type-checker.js",362,0," ",javascript,content
+365,1917930,"exercises/easy/ex2-type-checker.js",363,0,"()",javascript,content
+366,1919120,"exercises/easy/ex2-type-checker.js",364,0,"A",javascript,content
+367,1920306,"exercises/easy/ex2-type-checker.js",365,0,"r",javascript,content
+368,1920887,"exercises/easy/ex2-type-checker.js",366,0,"r",javascript,content
+369,1920912,"exercises/easy/ex2-type-checker.js",367,0,"a",javascript,content
+370,1921291,"exercises/easy/ex2-type-checker.js",368,0,"y",javascript,content
+371,1923068,"exercises/easy/ex2-type-checker.js",364,5,"Array",javascript,content
+371,1923068,"exercises/easy/ex2-type-checker.js",364,5,"Array",javascript,content
+372,1923071,"exercises/easy/ex2-type-checker.js",369,0,".",javascript,content
+373,1923960,"exercises/easy/ex2-type-checker.js",370,0,"i",javascript,content
+374,1924127,"exercises/easy/ex2-type-checker.js",371,0,"s",javascript,content
+375,1926367,"exercises/easy/ex2-type-checker.js",369,3,".isArray",javascript,content
+376,1944229,"exercises/easy/ex2-type-checker.js",377,0,"()",javascript,content
+377,1959822,"exercises/easy/ex2-type-checker.js",378,0,"g",javascript,content
+378,1960096,"exercises/easy/ex2-type-checker.js",379,0,"r",javascript,content
+379,1960404,"exercises/easy/ex2-type-checker.js",380,0,"o",javascript,content
+380,1960953,"exercises/easy/ex2-type-checker.js",381,0,"u",javascript,content
+381,1962908,"exercises/easy/ex2-type-checker.js",378,4,"group",javascript,content
+382,1974054,"exercises/easy/ex2-type-checker.js",385,0,"\n",javascript,content
+383,1974913,"exercises/easy/ex2-type-checker.js",386,0,"c",javascript,content
+384,1975024,"exercises/easy/ex2-type-checker.js",387,0,"o",javascript,content
+385,1975222,"exercises/easy/ex2-type-checker.js",388,0,"n",javascript,content
+386,1975384,"exercises/easy/ex2-type-checker.js",389,0,"s",javascript,content
+387,1975524,"exercises/easy/ex2-type-checker.js",390,0,"o",javascript,content
+388,1975721,"exercises/easy/ex2-type-checker.js",391,0,"l",javascript,content
+389,1975862,"exercises/easy/ex2-type-checker.js",392,0,"e",javascript,content
+390,1976662,"exercises/easy/ex2-type-checker.js",386,7,"console",javascript,content
+390,1976662,"exercises/easy/ex2-type-checker.js",386,7,"console",javascript,content
+391,1976663,"exercises/easy/ex2-type-checker.js",393,0,".",javascript,content
+392,1976988,"exercises/easy/ex2-type-checker.js",394,0,"l",javascript,content
+393,1977140,"exercises/easy/ex2-type-checker.js",395,0,"o",javascript,content
+394,1977397,"exercises/easy/ex2-type-checker.js",396,0,"g",javascript,content
+395,1979167,"exercises/easy/ex2-type-checker.js",397,0," ",javascript,content
+396,1979560,"exercises/easy/ex2-type-checker.js",398,0,"()",javascript,content
+397,1980092,"exercises/easy/ex2-type-checker.js",398,2,"",javascript,content
+398,1980280,"exercises/easy/ex2-type-checker.js",397,1,"",javascript,content
+399,1981062,"exercises/easy/ex2-type-checker.js",397,0,"()",javascript,content
+400,1984043,"exercises/easy/ex2-type-checker.js",398,0,"a",javascript,content
+401,1984528,"exercises/easy/ex2-type-checker.js",399,0,"r",javascript,content
+402,1984535,"exercises/easy/ex2-type-checker.js",400,0,"r",javascript,content
+403,1984768,"exercises/easy/ex2-type-checker.js",401,0,"a",javascript,content
+404,1985060,"exercises/easy/ex2-type-checker.js",402,0,"y",javascript,content
+405,2022087,"exercises/easy/ex2-type-checker.js",404,0,"\n",javascript,content
+406,2023017,"exercises/easy/ex2-type-checker.js",405,0,"e",javascript,content
+407,2023200,"exercises/easy/ex2-type-checker.js",406,0,"l",javascript,content
+408,2023311,"exercises/easy/ex2-type-checker.js",407,0,"s",javascript,content
+409,2023475,"exercises/easy/ex2-type-checker.js",408,0,"e",javascript,content
+410,2023690,"exercises/easy/ex2-type-checker.js",409,0," ",javascript,content
+411,2023946,"exercises/easy/ex2-type-checker.js",410,0,"i",javascript,content
+412,2024289,"exercises/easy/ex2-type-checker.js",411,0,"f",javascript,content
+413,2071329,"exercises/easy/ex2-type-checker.js",412,0," ",javascript,content
+414,2164761,"exercises/easy/ex2-type-checker.js",382,1,"",javascript,content
+415,2165002,"exercises/easy/ex2-type-checker.js",381,1,"",javascript,content
+416,2165218,"exercises/easy/ex2-type-checker.js",380,1,"",javascript,content
+417,2165418,"exercises/easy/ex2-type-checker.js",379,1,"",javascript,content
+418,2165845,"exercises/easy/ex2-type-checker.js",378,1,"",javascript,content
+419,2170097,"exercises/easy/ex2-type-checker.js",175,0,"v",javascript,content
+420,2170389,"exercises/easy/ex2-type-checker.js",176,0,"a",javascript,content
+421,2172278,"exercises/easy/ex2-type-checker.js",176,1,"",javascript,content
+422,2173524,"exercises/easy/ex2-type-checker.js",175,1,"",javascript,content
+423,2174712,"exercises/easy/ex2-type-checker.js",175,0,"d",javascript,content
+424,2174968,"exercises/easy/ex2-type-checker.js",176,0,"a",javascript,content
+425,2175093,"exercises/easy/ex2-type-checker.js",177,0,"t",javascript,content
+426,2175213,"exercises/easy/ex2-type-checker.js",178,0,"a",javascript,content
+427,2179440,"exercises/easy/ex2-type-checker.js",382,0,"d",javascript,content
+428,2179540,"exercises/easy/ex2-type-checker.js",383,0,"a",javascript,content
+429,2179641,"exercises/easy/ex2-type-checker.js",384,0,"t",javascript,content
+430,2179778,"exercises/easy/ex2-type-checker.js",385,0,"a",javascript,content
+431,2190335,"exercises/easy/ex2-type-checker.js",415,1,"",javascript,content
+432,2191339,"exercises/easy/ex2-type-checker.js",415,0," ",javascript,content
+433,2192217,"exercises/easy/ex2-type-checker.js",416,0,"()",javascript,content
+434,2248824,"exercises/easy/ex2-type-checker.js",417,0,"d",javascript,content
+435,2249073,"exercises/easy/ex2-type-checker.js",418,0,"a",javascript,content
+436,2249199,"exercises/easy/ex2-type-checker.js",419,0,"t",javascript,content
+437,2249327,"exercises/easy/ex2-type-checker.js",420,0,"a",javascript,content
+438,2251856,"exercises/easy/ex2-type-checker.js",421,0," ",javascript,content
+439,2252945,"exercises/easy/ex2-type-checker.js",422,0,"!",javascript,content
+440,2253880,"exercises/easy/ex2-type-checker.js",423,0,"=",javascript,content
+441,2254727,"exercises/easy/ex2-type-checker.js",424,0," ",javascript,content
+442,2255389,"exercises/easy/ex2-type-checker.js",425,0,"d",javascript,content
+443,2255576,"exercises/easy/ex2-type-checker.js",426,0,"a",javascript,content
+444,2255736,"exercises/easy/ex2-type-checker.js",427,0,"t",javascript,content
+445,2256161,"exercises/easy/ex2-type-checker.js",428,0,"a",javascript,content
+446,2258944,"exercises/easy/ex2-type-checker.js",430,0,"\n  ",javascript,content
+447,2275726,"exercises/easy/ex2-type-checker.js",431,2,"",javascript,content
+447,2275726,"exercises/easy/ex2-type-checker.js",431,2,"",javascript,content
+448,2275726,"exercises/easy/ex2-type-checker.js",415,1,"",javascript,content
+449,2280881,"exercises/easy/ex2-type-checker.js",412,1,"",javascript,content
+450,2285508,"exercises/easy/ex2-type-checker.js",429,0,"c",javascript,content
+451,2285623,"exercises/easy/ex2-type-checker.js",430,0,"o",javascript,content
+452,2285827,"exercises/easy/ex2-type-checker.js",431,0,"n",javascript,content
+453,2285982,"exercises/easy/ex2-type-checker.js",432,0,"s",javascript,content
+454,2286164,"exercises/easy/ex2-type-checker.js",433,0,"o",javascript,content
+455,2286371,"exercises/easy/ex2-type-checker.js",434,0,"l",javascript,content
+456,2286537,"exercises/easy/ex2-type-checker.js",435,0,"e",javascript,content
+457,2287739,"exercises/easy/ex2-type-checker.js",429,7,"console",javascript,content
+457,2287739,"exercises/easy/ex2-type-checker.js",429,7,"console",javascript,content
+458,2287742,"exercises/easy/ex2-type-checker.js",436,0,".",javascript,content
+459,2288015,"exercises/easy/ex2-type-checker.js",437,0,"l",javascript,content
+460,2288204,"exercises/easy/ex2-type-checker.js",438,0,"o",javascript,content
+461,2288399,"exercises/easy/ex2-type-checker.js",439,0,"g",javascript,content
+462,2290932,"exercises/easy/ex2-type-checker.js",436,4,".log",javascript,content
+462,2290932,"exercises/easy/ex2-type-checker.js",436,4,".log",javascript,content
+463,2290933,"exercises/easy/ex2-type-checker.js",440,0,"()",javascript,content
+464,2293728,"exercises/easy/ex2-type-checker.js",441,0,"""""",javascript,content
+465,2295323,"exercises/easy/ex2-type-checker.js",442,0,"N",javascript,content
+466,2295823,"exercises/easy/ex2-type-checker.js",443,0,"a",javascript,content
+467,2296843,"exercises/easy/ex2-type-checker.js",444,0,"N",javascript,content
+468,2299575,"exercises/easy/ex2-type-checker.js",447,0,";",javascript,content
+469,2430717,"tests/easy/ex2.test.js",0,0,"const showAllTypes = require('../../exercises/easy/ex2-type-checker');\n\ndescribe('Show All Types function', () => {\n  test('should return an object with all the types', () => {\n    const result = showAllTypes();\n    \n    expect(result).toHaveProperty('object');\n    expect(result).toHaveProperty('array');\n    expect(result).toHaveProperty('string');\n    expect(result).toHaveProperty('number');\n    expect(result).toHaveProperty('boolean');\n    expect(result).toHaveProperty('null');\n    expect(result).toHaveProperty('undefined');\n    expect(result).toHaveProperty('nan');\n    \n    expect(result.object).toBe('object');\n    expect(result.array).toBe('object');\n    expect(result.string).toBe('string');\n    expect(result.number).toBe('number');\n    expect(result.boolean).toBe('boolean');\n    expect(result.null).toBe('object');\n    expect(result.undefined).toBe('undefined');\n    expect(result.nan).toBe('number');\n  });\n});\n",javascript,tab
+470,2463354,"exercises/easy/ex2-type-checker.js",0,0,"const num = 50;\nconst name = Alan;\nconst interruptor = true\nconst group = [1,2,3,6,9]\nconst none = null\nconst NotDefined = undefined\nconst idk = NaN\n\n\n\n\nfunction showAllTypes(data) {\n  /* Create a function that outputs the typeof for:\n  objects, arrays, strings, numbers, booleans, null, undefined, and NaN It should return an object containing all these types */\nIf (Array.isArray(data))\nconsole.log(array)\nelseif(data != data)\nconsole.log(""NaN"");\n\n\n}\n\nmodule.exports = showAllTypes;\n",javascript,tab
+471,2623892,"exercises/easy/ex2-type-checker.js",448,0,"\n",javascript,content
+472,2626324,"exercises/easy/ex2-type-checker.js",449,0,"e",javascript,content
+473,2626495,"exercises/easy/ex2-type-checker.js",450,0,"l",javascript,content
+474,2626694,"exercises/easy/ex2-type-checker.js",451,0,"s",javascript,content
+475,2626857,"exercises/easy/ex2-type-checker.js",452,0,"e",javascript,content
+476,2627880,"exercises/easy/ex2-type-checker.js",453,0,"i",javascript,content
+477,2628270,"exercises/easy/ex2-type-checker.js",454,0,"f",javascript,content
+478,2629312,"exercises/easy/ex2-type-checker.js",455,0,"()",javascript,content
+479,2632066,"exercises/easy/ex2-type-checker.js",456,0,"t",javascript,content
+480,2632309,"exercises/easy/ex2-type-checker.js",457,0,"y",javascript,content
+481,2633808,"exercises/easy/ex2-type-checker.js",456,2,"typeof",javascript,content
+482,2635166,"exercises/easy/ex2-type-checker.js",462,0," ",javascript,content
+483,2635748,"exercises/easy/ex2-type-checker.js",463,0,"d",javascript,content
+483,2635748,"exercises/easy/ex2-type-checker.js",463,0,"d",javascript,content
+484,2635751,"exercises/easy/ex2-type-checker.js",464,0,"a",javascript,content
+485,2635912,"exercises/easy/ex2-type-checker.js",465,0,"t",javascript,content
+486,2636143,"exercises/easy/ex2-type-checker.js",466,0,"a",javascript,content
+487,2637860,"exercises/easy/ex2-type-checker.js",463,4,"data",javascript,content
+488,2639339,"exercises/easy/ex2-type-checker.js",468,0,";",javascript,content
+489,2668189,"exercises/easy/ex2-type-checker.js",470,0,"c",javascript,content
+490,2668285,"exercises/easy/ex2-type-checker.js",471,0,"o",javascript,content
+491,2668516,"exercises/easy/ex2-type-checker.js",472,0,"n",javascript,content
+492,2668550,"exercises/easy/ex2-type-checker.js",473,0,"s",javascript,content
+493,2668720,"exercises/easy/ex2-type-checker.js",474,0,"o",javascript,content
+494,2668956,"exercises/easy/ex2-type-checker.js",475,0,"l",javascript,content
+495,2669044,"exercises/easy/ex2-type-checker.js",476,0,"e",javascript,content
+496,2670383,"exercises/easy/ex2-type-checker.js",470,7,"console",javascript,content
+496,2670383,"exercises/easy/ex2-type-checker.js",470,7,"console",javascript,content
+497,2670384,"exercises/easy/ex2-type-checker.js",477,0,".",javascript,content
+498,2670672,"exercises/easy/ex2-type-checker.js",478,0,"l",javascript,content
+499,2670856,"exercises/easy/ex2-type-checker.js",479,0,"o",javascript,content
+500,2671109,"exercises/easy/ex2-type-checker.js",480,0,"g",javascript,content
+501,2672394,"exercises/easy/ex2-type-checker.js",477,4,".log",javascript,content
+501,2672394,"exercises/easy/ex2-type-checker.js",477,4,".log",javascript,content
+502,2672396,"exercises/easy/ex2-type-checker.js",481,0,"()",javascript,content
+503,2673437,"exercises/easy/ex2-type-checker.js",482,0,"t",javascript,content
+504,2673659,"exercises/easy/ex2-type-checker.js",483,0,"y",javascript,content
+505,2673776,"exercises/easy/ex2-type-checker.js",484,0,"p",javascript,content
+506,2674005,"exercises/easy/ex2-type-checker.js",485,0,"e",javascript,content
+507,2675104,"exercises/easy/ex2-type-checker.js",486,0,"o",javascript,content
+508,2675135,"exercises/easy/ex2-type-checker.js",487,0,"f",javascript,content
+509,2675832,"exercises/easy/ex2-type-checker.js",488,0," ",javascript,content
+510,2676422,"exercises/easy/ex2-type-checker.js",489,0,"d",javascript,content
+511,2676614,"exercises/easy/ex2-type-checker.js",490,0,"a",javascript,content
+512,2676725,"exercises/easy/ex2-type-checker.js",491,0,"t",javascript,content
+513,2676820,"exercises/easy/ex2-type-checker.js",492,0,"a",javascript,content
+514,2684065,"exercises/easy/ex2-type-checker.js",461,1,"",javascript,content
+515,2684284,"exercises/easy/ex2-type-checker.js",460,1,"",javascript,content
+516,2684480,"exercises/easy/ex2-type-checker.js",459,1,"",javascript,content
+517,2684666,"exercises/easy/ex2-type-checker.js",458,1,"",javascript,content
+518,2684850,"exercises/easy/ex2-type-checker.js",457,1,"",javascript,content
+519,2685206,"exercises/easy/ex2-type-checker.js",456,1,"",javascript,content
+520,2689627,"exercises/easy/ex2-type-checker.js",456,1,"",javascript,content
+521,2695534,"exercises/easy/ex2-type-checker.js",454,1,"",javascript,content
+522,2695799,"exercises/easy/ex2-type-checker.js",453,1,"",javascript,content
+523,2696243,"exercises/easy/ex2-type-checker.js",453,0," ",javascript,content
+524,2705646,"exercises/easy/ex2-type-checker.js",460,1,"",javascript,content
+525,2705852,"exercises/easy/ex2-type-checker.js",459,1,"",javascript,content
+526,2706013,"exercises/easy/ex2-type-checker.js",458,1,"",javascript,content
+527,2706187,"exercises/easy/ex2-type-checker.js",457,1,"",javascript,content
+528,2706345,"exercises/easy/ex2-type-checker.js",456,1,"",javascript,content
+529,2706518,"exercises/easy/ex2-type-checker.js",455,1,"",javascript,content
+530,2706831,"exercises/easy/ex2-type-checker.js",454,1,"",javascript,content
+531,2707724,"exercises/easy/ex2-type-checker.js",453,1,"",javascript,content
+532,2710209,"exercises/easy/ex2-type-checker.js",453,0," ",javascript,content
+533,2861859,"exercises/easy/ex2-type-checker.js",364,115,"",javascript,content
+534,2872554,"exercises/easy/ex2-type-checker.js",363,1,"",javascript,content
+535,2878990,"exercises/easy/ex2-type-checker.js",367,0,"r",javascript,content
+536,2879431,"exercises/easy/ex2-type-checker.js",368,0,"e",javascript,content
+536,2879431,"exercises/easy/ex2-type-checker.js",368,0,"e",javascript,content
+537,2879433,"exercises/easy/ex2-type-checker.js",369,0,"u",javascript,content
+538,2879521,"exercises/easy/ex2-type-checker.js",370,0,"r",javascript,content
+539,2879980,"exercises/easy/ex2-type-checker.js",371,0,"t",javascript,content
+540,2880760,"exercises/easy/ex2-type-checker.js",371,1,"",javascript,content
+541,2880956,"exercises/easy/ex2-type-checker.js",370,1,"",javascript,content
+542,2881110,"exercises/easy/ex2-type-checker.js",369,1,"",javascript,content
+543,2882102,"exercises/easy/ex2-type-checker.js",369,0,"t",javascript,content
+544,2882336,"exercises/easy/ex2-type-checker.js",370,0,"u",javascript,content
+545,2882481,"exercises/easy/ex2-type-checker.js",371,0,"r",javascript,content
+546,2882629,"exercises/easy/ex2-type-checker.js",372,0,"n",javascript,content
+547,2884864,"exercises/easy/ex2-type-checker.js",367,6,"return",javascript,content
+548,2885820,"exercises/easy/ex2-type-checker.js",373,0," ",javascript,content
+549,2886559,"exercises/easy/ex2-type-checker.js",374,0,"()",javascript,content
+550,2887005,"exercises/easy/ex2-type-checker.js",375,0,"\n  \n",javascript,content
+551,2895864,"exercises/easy/ex2-type-checker.js",376,2,"",javascript,content
+551,2895864,"exercises/easy/ex2-type-checker.js",376,2,"",javascript,content
+552,2895864,"exercises/easy/ex2-type-checker.js",374,1,"",javascript,content
+553,2897271,"exercises/easy/ex2-type-checker.js",376,1,"",javascript,content
+554,2897681,"exercises/easy/ex2-type-checker.js",375,1,"",javascript,content
+555,2901414,"exercises/easy/ex2-type-checker.js",375,0,"s",javascript,content
+556,2901733,"exercises/easy/ex2-type-checker.js",376,0,"t",javascript,content
+557,2901894,"exercises/easy/ex2-type-checker.js",377,0,"r",javascript,content
+558,2902060,"exercises/easy/ex2-type-checker.js",378,0,"i",javascript,content
+559,2902236,"exercises/easy/ex2-type-checker.js",379,0,"n",javascript,content
+560,2902323,"exercises/easy/ex2-type-checker.js",380,0,"g",javascript,content
+561,2906939,"exercises/easy/ex2-type-checker.js",381,0,":",javascript,content
+562,2908130,"exercises/easy/ex2-type-checker.js",382,0," ",javascript,content
+563,2908824,"exercises/easy/ex2-type-checker.js",383,0,"t",javascript,content
+564,2909427,"exercises/easy/ex2-type-checker.js",384,0,"y",javascript,content
+565,2909852,"exercises/easy/ex2-type-checker.js",385,0,"p",javascript,content
+566,2910861,"exercises/easy/ex2-type-checker.js",386,0,"e",javascript,content
+567,2911472,"exercises/easy/ex2-type-checker.js",383,4,"typeof",javascript,content
+568,2916147,"exercises/easy/ex2-type-checker.js",389,0," ",javascript,content
+569,2916298,"exercises/easy/ex2-type-checker.js",390,0,"=",javascript,content
+570,2917135,"exercises/easy/ex2-type-checker.js",391,0," ",javascript,content
+571,2918174,"exercises/easy/ex2-type-checker.js",392,0,"""""",javascript,content
+572,2922814,"exercises/easy/ex2-type-checker.js",393,0,"t",javascript,content
+573,2922922,"exercises/easy/ex2-type-checker.js",394,0,"h",javascript,content
+574,2923695,"exercises/easy/ex2-type-checker.js",394,1,"",javascript,content
+575,2923863,"exercises/easy/ex2-type-checker.js",393,1,"",javascript,content
+576,2927145,"exercises/easy/ex2-type-checker.js",393,0,"a",javascript,content
+577,2927311,"exercises/easy/ex2-type-checker.js",394,0,"l",javascript,content
+578,2927378,"exercises/easy/ex2-type-checker.js",395,0,"a",javascript,content
+579,2927564,"exercises/easy/ex2-type-checker.js",396,0,"n",javascript,content
+580,2929018,"exercises/easy/ex2-type-checker.js",396,1,"",javascript,content
+581,2929168,"exercises/easy/ex2-type-checker.js",395,1,"",javascript,content
+582,2929340,"exercises/easy/ex2-type-checker.js",394,1,"",javascript,content
+583,2929660,"exercises/easy/ex2-type-checker.js",393,1,"",javascript,content
+584,2930329,"exercises/easy/ex2-type-checker.js",393,0,"A",javascript,content
+585,2930630,"exercises/easy/ex2-type-checker.js",394,0,"l",javascript,content
+586,2930780,"exercises/easy/ex2-type-checker.js",395,0,"a",javascript,content
+587,2930873,"exercises/easy/ex2-type-checker.js",396,0,"n",javascript,content
+588,2931069,"exercises/easy/ex2-type-checker.js",397,0," ",javascript,content
+589,2932437,"exercises/easy/ex2-type-checker.js",398,0,"i",javascript,content
+590,2932525,"exercises/easy/ex2-type-checker.js",399,0,"s",javascript,content
+591,2932675,"exercises/easy/ex2-type-checker.js",400,0," ",javascript,content
+592,2933009,"exercises/easy/ex2-type-checker.js",401,0,"m",javascript,content
+593,2933287,"exercises/easy/ex2-type-checker.js",402,0,"y",javascript,content
+594,2933427,"exercises/easy/ex2-type-checker.js",403,0," ",javascript,content
+595,2933587,"exercises/easy/ex2-type-checker.js",404,0,"n",javascript,content
+596,2933792,"exercises/easy/ex2-type-checker.js",405,0,"a",javascript,content
+597,2933948,"exercises/easy/ex2-type-checker.js",406,0,"m",javascript,content
+598,2934036,"exercises/easy/ex2-type-checker.js",407,0,"e",javascript,content
+599,2939975,"exercises/easy/ex2-type-checker.js",390,1,"",javascript,content
+600,2940198,"exercises/easy/ex2-type-checker.js",389,1,"",javascript,content
+601,2949862,"exercises/easy/ex2-type-checker.js",406,1,"",javascript,content
+602,2950365,"exercises/easy/ex2-type-checker.js",405,1,"",javascript,content
+603,2950393,"exercises/easy/ex2-type-checker.js",404,1,"",javascript,content
+604,2950432,"exercises/easy/ex2-type-checker.js",403,1,"",javascript,content
+605,2950461,"exercises/easy/ex2-type-checker.js",402,1,"",javascript,content
+606,2950488,"exercises/easy/ex2-type-checker.js",401,1,"",javascript,content
+607,2950537,"exercises/easy/ex2-type-checker.js",400,1,"",javascript,content
+608,2950579,"exercises/easy/ex2-type-checker.js",399,1,"",javascript,content
+609,2950616,"exercises/easy/ex2-type-checker.js",398,1,"",javascript,content
+610,2950629,"exercises/easy/ex2-type-checker.js",397,1,"",javascript,content
+611,2950661,"exercises/easy/ex2-type-checker.js",396,1,"",javascript,content
+612,2950712,"exercises/easy/ex2-type-checker.js",395,1,"",javascript,content
+613,2950738,"exercises/easy/ex2-type-checker.js",394,1,"",javascript,content
+614,2950764,"exercises/easy/ex2-type-checker.js",393,1,"",javascript,content
+615,2950791,"exercises/easy/ex2-type-checker.js",392,1,"",javascript,content
+616,2950823,"exercises/easy/ex2-type-checker.js",391,1,"",javascript,content
+617,2950856,"exercises/easy/ex2-type-checker.js",390,1,"",javascript,content
+618,2950889,"exercises/easy/ex2-type-checker.js",389,1,"",javascript,content
+619,2950926,"exercises/easy/ex2-type-checker.js",388,1,"",javascript,content
+620,2950958,"exercises/easy/ex2-type-checker.js",387,1,"",javascript,content
+621,2950989,"exercises/easy/ex2-type-checker.js",386,1,"",javascript,content
+622,2951023,"exercises/easy/ex2-type-checker.js",385,1,"",javascript,content
+623,2951056,"exercises/easy/ex2-type-checker.js",384,1,"",javascript,content
+624,2951113,"exercises/easy/ex2-type-checker.js",383,1,"",javascript,content
+625,2951138,"exercises/easy/ex2-type-checker.js",382,1,"",javascript,content
+626,2951161,"exercises/easy/ex2-type-checker.js",381,1,"",javascript,content
+627,2951190,"exercises/easy/ex2-type-checker.js",380,1,"",javascript,content
+628,2951389,"exercises/easy/ex2-type-checker.js",379,1,"",javascript,content
+629,2951570,"exercises/easy/ex2-type-checker.js",378,1,"",javascript,content
+630,2951773,"exercises/easy/ex2-type-checker.js",377,1,"",javascript,content
+631,2952188,"exercises/easy/ex2-type-checker.js",376,1,"",javascript,content
+632,2952544,"exercises/easy/ex2-type-checker.js",375,1,"",javascript,content
+633,2960484,"exercises/easy/ex2-type-checker.js",373,1,"",javascript,content
+634,2961563,"exercises/easy/ex2-type-checker.js",373,0," ",javascript,content
+635,2962318,"exercises/easy/ex2-type-checker.js",374,0,"()",javascript,content
+636,2963403,"exercises/easy/ex2-type-checker.js",375,0,"\n  \n",javascript,content
+637,2965825,"exercises/easy/ex2-type-checker.js",378,0,"s",javascript,content
+638,2966083,"exercises/easy/ex2-type-checker.js",379,0,"t",javascript,content
+639,2966276,"exercises/easy/ex2-type-checker.js",380,0,"r",javascript,content
+640,2966427,"exercises/easy/ex2-type-checker.js",381,0,"i",javascript,content
+641,2966601,"exercises/easy/ex2-type-checker.js",382,0,"n",javascript,content
+642,2967472,"exercises/easy/ex2-type-checker.js",383,0,"g",javascript,content
+643,2969576,"exercises/easy/ex2-type-checker.js",384,0,":",javascript,content
+644,2970005,"exercises/easy/ex2-type-checker.js",385,0," ",javascript,content
+645,2970913,"exercises/easy/ex2-type-checker.js",386,0,"t",javascript,content
+646,2971119,"exercises/easy/ex2-type-checker.js",387,0,"y",javascript,content
+647,2971307,"exercises/easy/ex2-type-checker.js",388,0,"p",javascript,content
+648,2971485,"exercises/easy/ex2-type-checker.js",389,0,"e",javascript,content
+649,2973691,"exercises/easy/ex2-type-checker.js",386,4,"typeof",javascript,content
+650,2974735,"exercises/easy/ex2-type-checker.js",392,0," ",javascript,content
+651,2975882,"exercises/easy/ex2-type-checker.js",393,0,"t",javascript,content
+652,2975989,"exercises/easy/ex2-type-checker.js",394,0,"h",javascript,content
+653,2976203,"exercises/easy/ex2-type-checker.js",395,0,"i",javascript,content
+654,2976361,"exercises/easy/ex2-type-checker.js",396,0,"s",javascript,content
+655,2977381,"exercises/easy/ex2-type-checker.js",396,1,"",javascript,content
+656,2977491,"exercises/easy/ex2-type-checker.js",395,1,"",javascript,content
+657,2977678,"exercises/easy/ex2-type-checker.js",394,1,"",javascript,content
+658,2977800,"exercises/easy/ex2-type-checker.js",393,1,"",javascript,content
+659,2978290,"exercises/easy/ex2-type-checker.js",392,1,"",javascript,content
+660,2979111,"exercises/easy/ex2-type-checker.js",392,0," ",javascript,content
+661,2979517,"exercises/easy/ex2-type-checker.js",393,0,"""""",javascript,content
+662,2980944,"exercises/easy/ex2-type-checker.js",394,0,"A",javascript,content
+663,2981253,"exercises/easy/ex2-type-checker.js",395,0,"l",javascript,content
+664,2981417,"exercises/easy/ex2-type-checker.js",396,0,"a",javascript,content
+665,2981574,"exercises/easy/ex2-type-checker.js",397,0,"n",javascript,content
+666,2981757,"exercises/easy/ex2-type-checker.js",398,0," ",javascript,content
+667,2982782,"exercises/easy/ex2-type-checker.js",399,0,"i",javascript,content
+668,2983034,"exercises/easy/ex2-type-checker.js",400,0,"s",javascript,content
+669,2983189,"exercises/easy/ex2-type-checker.js",401,0," ",javascript,content
+670,2983363,"exercises/easy/ex2-type-checker.js",402,0,"m",javascript,content
+671,2983709,"exercises/easy/ex2-type-checker.js",403,0,"y",javascript,content
+672,2983853,"exercises/easy/ex2-type-checker.js",404,0," ",javascript,content
+673,2984008,"exercises/easy/ex2-type-checker.js",405,0,"n",javascript,content
+674,2984108,"exercises/easy/ex2-type-checker.js",406,0,"a",javascript,content
+675,2984237,"exercises/easy/ex2-type-checker.js",407,0,"m",javascript,content
+676,2984318,"exercises/easy/ex2-type-checker.js",408,0,"e",javascript,content
+677,2992867,"exercises/easy/ex2-type-checker.js",384,1,"",javascript,content
+678,2993078,"exercises/easy/ex2-type-checker.js",383,1,"",javascript,content
+679,2993266,"exercises/easy/ex2-type-checker.js",382,1,"",javascript,content
+680,2993450,"exercises/easy/ex2-type-checker.js",381,1,"",javascript,content
+681,2993560,"exercises/easy/ex2-type-checker.js",380,1,"",javascript,content
+682,2993725,"exercises/easy/ex2-type-checker.js",379,1,"",javascript,content
+683,2994120,"exercises/easy/ex2-type-checker.js",378,1,"",javascript,content
+684,2998379,"exercises/easy/ex2-type-checker.js",386,0,"s",javascript,content
+685,2998674,"exercises/easy/ex2-type-checker.js",387,0,"t",javascript,content
+686,2998873,"exercises/easy/ex2-type-checker.js",388,0,"r",javascript,content
+687,2999079,"exercises/easy/ex2-type-checker.js",389,0,"i",javascript,content
+688,2999268,"exercises/easy/ex2-type-checker.js",390,0,"n",javascript,content
+689,2999387,"exercises/easy/ex2-type-checker.js",391,0,"g",javascript,content
+690,2999516,"exercises/easy/ex2-type-checker.js",392,0," ",javascript,content
+691,3000492,"exercises/easy/ex2-type-checker.js",392,1,"",javascript,content
+692,3001235,"exercises/easy/ex2-type-checker.js",392,0,":",javascript,content
+693,3002107,"exercises/easy/ex2-type-checker.js",393,0," ",javascript,content
+694,3008487,"exercises/easy/ex2-type-checker.js",393,1,"",javascript,content
+695,3008892,"exercises/easy/ex2-type-checker.js",392,1,"",javascript,content
+696,3009911,"exercises/easy/ex2-type-checker.js",392,0," ",javascript,content
+697,3010911,"exercises/easy/ex2-type-checker.js",393,0,"(",javascript,content
+698,3013517,"exercises/easy/ex2-type-checker.js",411,0,")",javascript,content
+699,3027149,"exercises/easy/ex2-type-checker.js",411,1,"",javascript,content
+700,3029039,"exercises/easy/ex2-type-checker.js",393,1,"",javascript,content
+701,3034903,"exercises/easy/ex2-type-checker.js",412,0,";",javascript,content
+702,3044279,"exercises/easy/ex2-type-checker.js",391,1,"",javascript,content
+703,3044461,"exercises/easy/ex2-type-checker.js",390,1,"",javascript,content
+704,3044643,"exercises/easy/ex2-type-checker.js",389,1,"",javascript,content
+705,3044793,"exercises/easy/ex2-type-checker.js",388,1,"",javascript,content
+706,3044965,"exercises/easy/ex2-type-checker.js",387,1,"",javascript,content
+707,3045124,"exercises/easy/ex2-type-checker.js",386,1,"",javascript,content
+708,3045295,"exercises/easy/ex2-type-checker.js",385,1,"",javascript,content
+709,3045482,"exercises/easy/ex2-type-checker.js",384,1,"",javascript,content
+710,3046924,"exercises/easy/ex2-type-checker.js",384,0,"f",javascript,content
+711,3048188,"exercises/easy/ex2-type-checker.js",379,6,"typeof",javascript,content
+712,3051916,"exercises/easy/ex2-type-checker.js",378,0," ",javascript,content
+713,3053475,"exercises/easy/ex2-type-checker.js",379,0,"s",javascript,content
+714,3053784,"exercises/easy/ex2-type-checker.js",380,0,"t",javascript,content
+715,3053961,"exercises/easy/ex2-type-checker.js",381,0,"r",javascript,content
+716,3054114,"exercises/easy/ex2-type-checker.js",382,0,"i",javascript,content
+717,3054289,"exercises/easy/ex2-type-checker.js",383,0,"n",javascript,content
+718,3054384,"exercises/easy/ex2-type-checker.js",384,0,"g",javascript,content
+719,3056725,"exercises/easy/ex2-type-checker.js",379,6,"String",javascript,content
+720,3064846,"exercises/easy/ex2-type-checker.js",385,0," ",javascript,content
+721,3065029,"exercises/easy/ex2-type-checker.js",386,0,"n",javascript,content
+722,3065129,"exercises/easy/ex2-type-checker.js",387,0,"a",javascript,content
+723,3065416,"exercises/easy/ex2-type-checker.js",388,0,"e",javascript,content
+724,3066000,"exercises/easy/ex2-type-checker.js",388,1,"",javascript,content
+725,3066381,"exercises/easy/ex2-type-checker.js",388,0,"m",javascript,content
+726,3066471,"exercises/easy/ex2-type-checker.js",389,0,"e",javascript,content
+727,3066783,"exercises/easy/ex2-type-checker.js",386,4,"name",javascript,content
+728,3069549,"exercises/easy/ex2-type-checker.js",390,0,":",javascript,content
+729,3076913,"exercises/easy/ex2-type-checker.js",390,1,"",javascript,content
+730,3077106,"exercises/easy/ex2-type-checker.js",389,1,"",javascript,content
+731,3077254,"exercises/easy/ex2-type-checker.js",388,1,"",javascript,content
+732,3077408,"exercises/easy/ex2-type-checker.js",387,1,"",javascript,content
+733,3077561,"exercises/easy/ex2-type-checker.js",386,1,"",javascript,content
+734,3079874,"exercises/easy/ex2-type-checker.js",410,1,"",javascript,content
+735,3080370,"exercises/easy/ex2-type-checker.js",409,1,"",javascript,content
+736,3080411,"exercises/easy/ex2-type-checker.js",408,1,"",javascript,content
+737,3080444,"exercises/easy/ex2-type-checker.js",407,1,"",javascript,content
+738,3080475,"exercises/easy/ex2-type-checker.js",406,1,"",javascript,content
+739,3080495,"exercises/easy/ex2-type-checker.js",405,1,"",javascript,content
+740,3080542,"exercises/easy/ex2-type-checker.js",404,1,"",javascript,content
+741,3080580,"exercises/easy/ex2-type-checker.js",403,1,"",javascript,content
+742,3080641,"exercises/easy/ex2-type-checker.js",402,1,"",javascript,content
+743,3080645,"exercises/easy/ex2-type-checker.js",401,1,"",javascript,content
+744,3080705,"exercises/easy/ex2-type-checker.js",400,1,"",javascript,content
+745,3080708,"exercises/easy/ex2-type-checker.js",399,1,"",javascript,content
+746,3080728,"exercises/easy/ex2-type-checker.js",398,1,"",javascript,content
+747,3080762,"exercises/easy/ex2-type-checker.js",397,1,"",javascript,content
+748,3080810,"exercises/easy/ex2-type-checker.js",396,1,"",javascript,content
+749,3080848,"exercises/easy/ex2-type-checker.js",395,1,"",javascript,content
+750,3080879,"exercises/easy/ex2-type-checker.js",394,1,"",javascript,content
+751,3080916,"exercises/easy/ex2-type-checker.js",393,1,"",javascript,content
+752,3080932,"exercises/easy/ex2-type-checker.js",392,1,"",javascript,content
+753,3080985,"exercises/easy/ex2-type-checker.js",391,1,"",javascript,content
+754,3080993,"exercises/easy/ex2-type-checker.js",390,1,"",javascript,content
+755,3081061,"exercises/easy/ex2-type-checker.js",389,1,"",javascript,content
+756,3081075,"exercises/easy/ex2-type-checker.js",388,1,"",javascript,content
+757,3081111,"exercises/easy/ex2-type-checker.js",387,1,"",javascript,content
+758,3081127,"exercises/easy/ex2-type-checker.js",386,1,"",javascript,content
+759,3081163,"exercises/easy/ex2-type-checker.js",385,1,"",javascript,content
+760,3081197,"exercises/easy/ex2-type-checker.js",384,1,"",javascript,content
+761,3081329,"exercises/easy/ex2-type-checker.js",383,1,"",javascript,content
+762,3081520,"exercises/easy/ex2-type-checker.js",382,1,"",javascript,content
+763,3081653,"exercises/easy/ex2-type-checker.js",381,1,"",javascript,content
+764,3081812,"exercises/easy/ex2-type-checker.js",380,1,"",javascript,content
+765,3081958,"exercises/easy/ex2-type-checker.js",379,1,"",javascript,content
+766,3086113,"exercises/easy/ex2-type-checker.js",367,15,"",javascript,content
